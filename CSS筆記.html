@@ -1,0 +1,1406 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>public_CSS筆記</title>
+</head>
+<body><p><font id="generators"> </font></p>
+<h1 id='語法產生器'>語法產生器</h1>
+<div>
+  <a style="padding-left:0; border-left:none;" href="https://cssgenerator.org/" title="Shadow / Gradient / Filter / Border / Cursor / Columns / Transform / HEX &amp; RGBA">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS Generator Tool
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://css-generator.netlify.app/" title="Text / Background / Filter / Border / Transform / Flex &amp; Grid &amp; Float">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS Generator
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://www.cssportal.com/css-generators.php" title="Border / Shadow / Text / Gradient / Filter / Button / Transform / Column / Clip-Path / Cubic Bezier / Flex / Tooltip...">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS Generators
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://css3generator.com/" title="Font / Shadow / Gradient / Border / Transform / Transition / Columns / Flex / RGBA / Box Size">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS3 Generator
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://css3generator.com/" title="Animation / Background / Box &amp; Border / Transform / Transition / Columns &amp; Display / List / Text / Cursor">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      The Ultimate CSS Generator
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://html-css-js.com/css/generator/" title="Color Picker / Gradient / Border / Transform  / Columns / Font / Shadow / Table">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS Code Generators
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none;" href="https://www.we-shop.net/css3/default.html" title="Shadow / Border / Gradient / Opacity / RGBA / Button">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+      CSS3 語法產生器
+    </button>
+  </a>
+</div>
+<p><font id="attributes"> </font></p>
+<h1 id='常用屬性'>常用屬性</h1>
+<h2 id='具體'>具體</h2>
+<h3 id='font'>font</h3>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">字型大小 font-size</b></legend>
+    <span>💬 網頁單位：px / em(父層的倍數) / rem(html定義字型大小的倍數) / %(父層的百分比)</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: 20px;">20px</span>
+    </div>
+    <span>💬 印刷單位：pt / in / cm / mm</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: 15pt;">15pt</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: .2in;">.2in</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: .5cm;">.5cm</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: 5mm;">5mm</span>
+    </div>
+    <span>💬 選項：medium / xx-small / x-small / small / large / x-large / xx-large / smaller(父層的80%) / larger(父層的120%)</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: medium;line-height:50px;">medium</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: xx-small;line-height:50px;">xx-small</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: x-small;line-height:50px;">x-small</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: small;line-height:50px;">small</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: x-large;line-height:50px;">x-large</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-size: xx-large;line-height:50px;">xx-large</span>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">字型 font-family</b></legend>
+    <span>💬 英文字型</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Trebuchet MS">Trebuchet MS 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Verdana">Verdana 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Arial Narrow">Arial Narrow 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:sans-serif">sans-serif 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Georgia">Georgia 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:serif">serif 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Courier">Courier 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:FreeMono">FreeMono 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:OCR A Std">OCR A Std 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:monospace">monospace 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Comic Sans MS, Comic Sans">Comic Sans MS, Comic Sans 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Brush Script MT, Brush Script Std">Brush Script MT, Brush Script Std 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:cursive">cursive 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:fantasy">fantasy 123</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:Stencil Std">Stencil Std 123</span>
+    </div>
+    <span>💬 中文字型</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:'Noto Sans TC'">Noto Sans TC 123 思源黑體</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:'Microsoft JhengHei'">Microsoft JhengHei 123 微軟正黑體</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-family:'Heiti TC'">Heiti TC 123 黑體-繁</span>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">斜體 font-style</b></legend>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-style: normal;">正常 normal</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;font-style: italic;">斜體 italic</span>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">文字間距 letter-spacing</b></legend>
+    <span>💬 單位：px / em / rem</span>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;letter-spacing:-1.5px;">letter-spacing:-1.5px;</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;letter-spacing:normal;">letter-spacing:normal;</span>
+      <span style="border-radius:5px;text-align:center;background:#fff;padding:0 10px;margin:5px;letter-spacing:8px;">letter-spacing:8px;</span>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id='border'>border</h3>
+<p><strong><img src="https://pic.pimg.tw/vr3205/49a8226dd944a.gif" style="display: inline;"></img> 四個角的順序</strong></p>
+<div style="display:flex;">
+  <div style="flex:1;">
+    <span>左上、右上、右下、左下</span>
+    <p style="display: table;">
+      <span>EX： </span>
+      <code>border-radius: 5px 15px 30px 45px;</code>
+    </p>
+    <div style="border-radius: 5px 15px 30px 45px;border:5px solid thistle;width:80px;height:80px;margin-top:20px;"></div>
+  </div>
+   <div style="flex:1;">
+    <span>左上右下、右上左下</span>
+    <p style="display: table;">
+      <span>EX： </span>
+      <code>border-radius: 0px 50px;</code>
+    </p>
+    <div style="border-radius: 0px 50px;border:5px solid thistle;width:80px;height:80px;margin-top:20px;"><div>
+  </div>
+</div></div></div>
+<p>&nbsp;</p>
+<p><strong><img src="https://pic.pimg.tw/vr3205/49a8226dd944a.gif" style="display: inline;"></img> 四個邊的順序</strong></p>
+<div style="display:flex;">
+  <div style="flex:1;">
+    <span>上、右、下、左   </span>
+    <p style="display: table;">
+      <span>EX： </span>
+      <code>border-width: 5px 10px 15px 20px;</code>
+    </p>
+    <div style="border-style: solid;border-width: 5px 10px 15px 20px;border-color: thistle;width:80px;height:80px;margin-top:20px;"></div>
+  </div>
+   <div style="flex:1;">
+    <span>上下、右左</span>
+    <p style="display: table;">
+      <span>EX： </span>
+      <code>border-style: solid double;</code>
+    </p>
+    <div style="border-style: solid double;border-width: 10px;border-color: thistle;width:80px;height:80px;margin-top:20px;"><div>
+  </div>
+</div></div></div>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">邊框線條樣式 border-style</b></legend>
+    <div style="display:flex;background: white; 
+                padding:10px;color:#272727;border-radius:5px;flex-wrap: wrap;justify-content:center;filter: drop-shadow(2px 2px 5px rgba(0,0,0,.3));">
+      <span style="margin:10px;width:200px;border-bottom:gray 5px solid;text-align:center;">solid</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px dotted;text-align:center;">dotted</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px dashed;text-align:center;">dashed</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px double;text-align:center;">double</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px outset;text-align:center;">outset</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px groove;text-align:center;">groove</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px ridge;text-align:center;">ridge</span>
+      <span style="margin:10px;width:200px;border-bottom:gray 5px inset;text-align:center;">inset</span>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id='color'>color</h3>
+<div style="display:flex;font-family:Comic Sans MS;overflow:auto;flex-wrap: wrap;filter: drop-shadow(1px 1px 2px rgba(0,0,0,.3));font-size:12px;text-align:center;">
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="gray">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:black;" title="#000">black</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:white;" title="#fff">white</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:gray;" title="#808080">gray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:silver;" title="#C0C0C0">silver</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkgray;" title="#a9a9a9">darkgray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:dimgray;" title="#696969">dimgray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:gainsboro;" title="#dcdcdc">gainsboro</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:ghostwhite;" title="#f8f8ff">ghostwhite</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightgray;" title="#d3d3d3">lightgray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:lightslategray;" title="#778899">lightslategray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:slategray;" title="#708090">slategray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:whitesmoke;" title="#f5f5f5">whitesmoke</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="red">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:red;">red</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:brown;">brown</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:coral;">coral</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:crimson;">crimson</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkred;">darkred</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darksalmon;">darksalmon</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:firebrick;">firebrick</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:indianred;">indianred</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lavenderblush;">lavenderblush</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:lightcoral;">lightcoral</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:lightsalmon;">lightsalmon</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:maroon;">maroon</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:mistyrose;">mistyrose</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:rosybrown;">rosybrown</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:salmon;">salmon</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:tomato;">tomato</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="orange">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:orange;">orange</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:antiquewhite;">antiquewhite</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:bisque;">bisque</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:blanchedalmond;">blanchedalmond</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:burlywood;">burlywood</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:chocolate;">chocolate</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkorange;">darkorange</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:floralwhite;">floralwhite</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:linen;">linen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:moccasin;">moccasin</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:navajowhite;">navajowhite</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:oldlace;">oldlace</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:orangered;">orangered</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:papayawhip;">papayawhip</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:peachpuff;">peachpuff</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:peru;">peru</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:saddlebrown;">saddlebrown</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:sandybrown;">sandybrown</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:tan;">tan</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:wheat;">wheat</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="yellow">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:yellow;">yellow</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:cornsilk;">cornsilk</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkgoldenrod;">darkgoldenrod</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkkhaki;">darkkhaki</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:gold;">gold</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:goldenrod;">goldenrod</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:khaki;">khaki</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:ivory;">ivory</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lemonchiffon;">lemonchiffon</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightgoldenrodyellow;">lightgoldenrodyellow</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightyellow;">lightyellow</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:palegoldenrod;">palegoldenrod</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="green">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:green;">green</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:azure;">azure</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:beige;">beige</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:chartreuse;">chartreuse</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkgreen;">darkgreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkolivegreen;">darkolivegreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkseagreen;">darkseagreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkslategray;">darkslategray</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:forestgreen;">forestgreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:greenyellow;">greenyellow</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:honeydew;">honeydew</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lawngreen;">lawngreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightgreen;">lightgreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lime;">lime</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:limegreen;">limegreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumseagreen;">mediumseagreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:mediumspringgreen;">mediumspringgreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:olive;">olive</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:olivedrab;">olivedrab</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:palegreen;">palegreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:seagreen;">seagreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:springgreen;">springgreen</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:yellowgreen;">yellowgreen</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="blue">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:blue;">blue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:aliceblue;">aliceblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:aqua;">aqua</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:cornflowerblue;">cornflowerblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:cyan;">cyan</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkblue;">darkblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkturquoise;">darkturquoise</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:deepskyblue;">deepskyblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:dodgerblue;">dodgerblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightblue;">lightblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightcyan;">lightcyan</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightskyblue;">lightskyblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightsteelblue;">lightsteelblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumblue;">mediumblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:mediumturquoise;">mediumturquoise</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:midnightblue;">midnightblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:mintcream;">mintcream</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:navy;">navy</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:paleturquoise;">paleturquoise</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:powderblue;">powderblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:royalblue;">royalblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:skyblue;">skyblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:steelblue;">steelblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:turquoise;">turquoise</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:aquamarine;">aquamarine</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:cadetblue;">cadetblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkcyan;">darkcyan</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:mediumaquamarine;">mediumaquamarine</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:teal;">teal</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:lightseagreen;">lightseagreen</span>
+  </div>
+  <div style="display:flex;flex-direction:column;width:125px;margin-left:5px;" name="purple">
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:purple;">purple</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:violet;">violet</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:thistle;">thistle</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:slateblue;">slateblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:plum;">plum</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:pink;">pink</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:palevioletred;">palevioletred</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:orchid;">orchid</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumvioletred;">mediumvioletred</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumslateblue;">mediumslateblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumpurple;">mediumpurple</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:mediumorchid;">mediumorchid</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:magenta;">magenta</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lightpink;">lightpink</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:black;background:lavenderblush;">lavenderblush</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:indigo;">indigo</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:hotpink;">hotpink</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:fuchsia;">fuchsia</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:deeppink;">deeppink</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkviolet;">darkviolet</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkslateblue;">darkslateblue</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkorchid;">darkorchid</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:darkmagenta;">darkmagenta</span>
+    <span style="margin-top:5px;padding:5px;border-radius:5px;color:white;background:blueviolet;">blueviolet</span>
+  </div>
+</div>
+<h2 id='抽象'>抽象</h2>
+<h3 id='overflow'>overflow</h3>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">溢出 overflow</b></legend>
+    <span>💬 選項：auto / hidden / visible / scroll / inherit(繼承父層的overflow屬性)</span>
+    <div style="font-size:12px;padding-top:15px;">
+      <span style="width:200px;text-align:center;">
+        父物件 overflow: auto
+      </span>
+      <div style="width:200px;border:2px solid gray;background:#fff;padding:5px;overflow:auto;margin-bottom:15px;">
+        <p style="width:300px;color:mediumorchid;">子物件內容子物件內容子物件內容子物件內容</p>
+      </div>
+      <span style="width:200px;text-align:center;">
+        父物件 overflow: hidden
+      </span>
+      <div style="width:200px;border:2px solid gray;background:#fff;padding:5px;overflow:hidden;margin-bottom:15px;">
+        <p style="width:300px;color:mediumorchid;">子物件內容子物件內容子物件內容子物件內容</p>
+      </div>
+      <span style="width:200px;text-align:center;">
+        父物件 overflow: visible
+      </span>
+      <div style="width:200px;border:2px solid gray;background:#fff;padding:5px;overflow:visible;margin-bottom:15px;">
+        <p style="width:300px;color:mediumorchid;">子物件內容子物件內容子物件內容子物件內容</p>
+      </div>
+      <span style="width:200px;text-align:center;">
+        父物件 overflow: scroll
+      </span>
+      <div style="width:200px;border:2px solid gray;background:#fff;padding:5px;overflow:scroll;margin-bottom:15px;">
+        <p style="width:300px;color:mediumorchid;">子物件內容子物件內容子物件內容子物件內容</p>
+      </div>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<h3 id='display'>display</h3>
+<blockquote><p>參考文章：</p>
+<p><a href='https://ithelp.ithome.com.tw/articles/10227414'>從門外漢到前端新手 Day27 CSS：Display</a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font id="selector"> </font></p>
+<h1 id='選擇器'>選擇器</h1>
+<p>CSS 尚無法選擇上層元素 / 前兄弟元素，並無法做 has 判斷。</p>
+<h2 id='選子物件'>選子物件</h2>
+<p>比較 <code>A B</code> 和 <code>A &gt; B</code></p>
+<blockquote><p><code>A B</code>：選擇 A 底下所有 B</p>
+<p><code>A &gt; B</code>：針對 A 底下第一層 B (一等親)</p>
+</blockquote>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="abWXrXz" data-user="cynthia204z" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/cynthia204z/pen/abWXrXz">
+  css-seletor-note1</a> by cynthia204z (<a href="https://codepen.io/cynthia204z">@cynthia204z</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p>&nbsp;</p>
+<h2 id='選兄弟物件'>選兄弟物件</h2>
+<p>比較 <code>A + B</code> 和 <code>A ~ B</code></p>
+<blockquote><p><code>A + B</code>：選擇 A 後面的那個 B</p>
+<p><code>A ~ B</code>：選擇 A 後面所有的 B </p>
+</blockquote>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKmEzeB" data-user="cynthia204z" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/cynthia204z/pen/KKmEzeB">
+  css-seletor-note2</a> by cynthia204z (<a href="https://codepen.io/cynthia204z">@cynthia204z</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p>&nbsp;</p>
+<h2 id='選所有物件'>選所有物件</h2>
+<p><code>*</code></p>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XWRGBbv" data-user="cynthia204z" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/cynthia204z/pen/XWRGBbv">
+  css-seletor-note3</a> by cynthia204z (<a href="https://codepen.io/cynthia204z">@cynthia204z</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p><font id="pseudo"> </font></p>
+<h1 id='偽元素--偽類'>偽元素 &amp; 偽類</h1>
+<p><font id="effect"> </font></p>
+<h1 id='效果'>效果</h1>
+<h2 id='文字'>文字</h2>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">文字陰影 text-shadow</b></legend>
+    <div style="display:flex;padding:10px;color:#272727;border-radius:5px;flex-wrap: wrap;justify-content:space-between;">
+      <span style="color: white;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: rgb(3, 3, 3) 4px 4px 4px;">這是文字的普通陰影</span>
+      <span style="color: white;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: gold 0px 0px 12px;">這是文字的光暈效果</span>
+      <span style="color: white;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: 
+                   rgb(255, 255, 255) 0px 0px 5px,
+                   rgb(255, 255, 255) 0px 0px 10px,
+                   rgb(255, 255, 255) 0px 0px 15px,
+                   rgb(255, 45, 149) 0px 0px 20px,
+                   rgb(255, 45, 149) 0px 0px 30px,
+                   rgb(255, 45, 149) 0px 0px 40px,
+                   rgb(255, 45, 149) 0px 0px 50px,
+                   rgb(255, 45, 149) 0px 0px 75px;">這是文字的霓虹效果</span>
+      <span style="color: transparent;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: 
+                   rgba(80, 80, 80, .9) 0px 0px 6px;">這是文字的失焦效果</span>
+      <span style="color: white;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: 
+                   rgb(204, 204, 204) 0px 1px 0px,
+                   rgb(201, 201, 201) 0px 2px 0px,
+                   rgb(187, 187, 187) 0px 3px 0px,
+                   rgb(185, 185, 185) 0px 4px 0px,
+                   rgb(170, 170, 170) 0px 5px 0px,
+                   rgba(0, 0, 0, 0.1) 0px 6px 1px,
+                   rgba(0, 0, 0, 0.1) 0px 0px 5px,
+                   rgba(0, 0, 0, 0.3) 0px 1px 3px,
+                   rgba(0, 0, 0, 0.15) 0px 3px 5px,
+                   rgba(0, 0, 0, 0.2) 0px 5px 10px,
+                   rgba(0, 0, 0, 0.2) 0px 10px 10px,
+                   rgba(0, 0, 0, 0.1) 0px 20px 20px;">這是文字的立體效果</span>
+      <span style="color: gray;
+                   background: gray;
+                   margin:10px;
+                   padding:0 10px;
+                   font-size: 30px;
+                   text-shadow: 
+                   rgba(255, 255, 255, 0.1) -1px -1px 1px,
+                   rgba(0, 0, 0, 0.5) 1px 1px 1px;">這是文字的凹凸效果</span>
+    </div>
+  </filedset>
+</form>
+<blockquote><p>出處：<a href="#n0">CSS3 語法產生器</a></p>
+</blockquote>
+<pre><code class='language-scss' lang='scss'>// 普通陰影
+div {
+  text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+}
+// 光暈
+div {
+  text-shadow: gold 0px 0px 12px;
+}
+// 霓虹
+div {
+  text-shadow: 
+    rgb(255, 255, 255) 0px 0px 5px,
+    rgb(255, 255, 255) 0px 0px 10px,
+    rgb(255, 255, 255) 0px 0px 15px,
+    rgb(255, 45, 149) 0px 0px 20px,
+    rgb(255, 45, 149) 0px 0px 30px,
+    rgb(255, 45, 149) 0px 0px 40px,
+    rgb(255, 45, 149) 0px 0px 50px,
+    rgb(255, 45, 149) 0px 0px 75px;
+}
+// 失焦
+div {
+  color: transparent;
+  text-shadow: rgba(80, 80, 80, .9) 0px 0px 6px;
+}
+// 立體
+div {
+  text-shadow: 
+    rgb(204, 204, 204) 0px 1px 0px,
+    rgb(201, 201, 201) 0px 2px 0px,
+    rgb(187, 187, 187) 0px 3px 0px,
+    rgb(185, 185, 185) 0px 4px 0px,
+    rgb(170, 170, 170) 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 6px 1px,
+    rgba(0, 0, 0, 0.1) 0px 0px 5px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px,
+    rgba(0, 0, 0, 0.15) 0px 3px 5px,
+    rgba(0, 0, 0, 0.2) 0px 5px 10px,
+    rgba(0, 0, 0, 0.2) 0px 10px 10px,
+    rgba(0, 0, 0, 0.1) 0px 20px 20px;
+}
+// 凹凸
+div {
+  color: gray;
+  background: gray;
+  text-shadow: 
+    rgba(255, 255, 255, 0.1) -1px -1px 1px,
+    rgba(0, 0, 0, 0.5) 1px 1px 1px;
+}
+</code></pre>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">文字遮罩 background-clip: text + background-image</b></legend>
+    <div style="display:flex;border-radius:5px;flex-wrap: wrap;line-height:150px;">
+      <span style="font-size:100px;font-weight:800;font-family:Stencil Std;text-align: center;width: 100%;
+                   filter: drop-shadow(1px 1px 2px rgba(0,0,0,.3));
+                   background-image: url('https://i.imgur.com/vpTQ0Vc.jpg');
+                   background-clip: text;
+                   background-size:cover;
+                   -webkit-background-clip: text;
+                   color: transparent;">Hello World!</span>
+    </div>
+  </filedset>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">偽鏤空</b></legend>
+    <span>💬 外層background-image + 中間層半透明background + 內層文字遮罩</span>
+    <div style="display:flex;border-radius:5px;flex-wrap: wrap;line-height:150px;">
+      <div style="display: block;
+                  width: 100%;
+                  height: 120px;
+                  background: url('https://i.imgur.com/vpTQ0Vc.jpg') no-repeat top center;
+                  background-size: cover;">
+        <div style="background: rgba(0, 0, 0, 0.6);
+                    width: 100%;
+                    height: 120px;">
+          <span style="font-size:100px;font-weight:800;font-family:Stencil Std;text-align: center;
+                       display: block;
+                       width: 100%;
+                       height: 120px;
+                       background: url('https://i.imgur.com/vpTQ0Vc.jpg') no-repeat top center;
+                       background-size: cover;
+                       background-clip: text;
+                       -webkit-background-clip: text;
+                       color: transparent;">Hello World!</span>
+        </div>
+      </div>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<pre><code class='language-scss' lang='scss'>// 文字遮罩
+div {
+  background-image: url(&#39;圖片&#39;) | 或漸層/條紋等;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+// 偽鏤空
+.box-outside{
+  background: url(&#39;圖片&#39;) no-repeat top center;
+  .box-middle{
+    background: rgba(0, 0, 0, 0.6);
+    .box-inside{
+      background-image: url(&#39;圖片&#39;);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  }
+}
+</code></pre>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">文字外框 text-stroke</b></legend>
+    <div style="display:flex;font-size:20px;color:#272727;flex-wrap: wrap;filter: drop-shadow(2px 2px 3px rgba(0,0,0,.3));">
+      <span style="font-size:100px;text-align: center;width: 100%;font-weight:1000; font-family:fantasy;
+                   -webkit-text-stroke: 2px #fff;letter-spacing: 20px;
+                   color: transparent;">Hello World!</span>
+    </div>
+  </filedset>
+</form>
+<pre><code class='language-scss' lang='scss'>div {
+  -webkit-text-stroke: 2px #fff;
+}
+</code></pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id='陰影'>陰影</h2>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">內陰影 box-shadow: inset</b></legend>
+    <div style="display:flex;padding-top:10px;color:#272727;border-radius:5px;flex-wrap: wrap;font-family:OCR A Std">
+      <div style="background: lightsalmon;width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;box-shadow:inset 0px 0px 15px 10px tomato;">inset</div>
+      <div style="background: lightsalmon;width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;box-shadow:inset 0px 0px 0px 10px tomato;">inset</div>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<pre><code class='language-scss' lang='scss'>// 內陰影
+div {
+  box-shadow:inset 0px 0px 15px 10px tomato;
+}
+// 內邊線
+div {
+  box-shadow:inset 0px 0px 0px 10px tomato;
+}
+</code></pre>
+<p>&nbsp;</p>
+<h2 id='漸層'>漸層</h2>
+<h3 id='背景'>背景</h3>
+<div style="margin-bottom: 20px;">
+  <a style="padding-left:0; border-left:none; cursor:pointer" href="https://www.colorzilla.com/gradient-editor/">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor:pointer" title="漸層產生器">
+      Ultimate CSS Gradient Generator
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none; cursor:pointer" href="https://www.gradient-animator.com/">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor:pointer" title="漸層動畫產生器">
+      CSS GRADIENT ANIMATOR
+    </button>
+  </a>
+    <a style="padding-left:0; border-left:none; cursor:pointer" href="https://webgradients.com/">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor:pointer" title="漸層色參考網站">
+      Fresh Background Gradients
+    </button>
+  </a>
+  <a style="padding-left:0; border-left:none; cursor:pointer" href="https://uigradients.com/#RoseColoredLenses">
+    <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor:pointer" title="漸層色參考網站">
+      UI Gradients
+    </button>
+  </a>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">背景漸層 background: linear-gradient / radial-gradient</b></legend>
+    <div style="display:flex;padding-top:10px;color:#272727;border-radius:5px;flex-wrap: wrap;font-family:OCR A Std">
+      <div style="background: linear-gradient(120deg, #a6c0fe 0%, transparent 100%), #f68084;width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;">linear</div>
+      <div style="background: linear-gradient(to top, #c6ffdd, #fbd786, #f7797d);width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;">linear</div>
+      <div style="background: linear-gradient(45deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 68%,#c72200 90%);width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;">linear</div>
+      <div style="background: radial-gradient(ellipse at center,#78ffd6, #007991);width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;color:#fff;">radial</div>
+      <div style="background:
+                  radial-gradient(
+                  ellipse at center,
+                  rgba(0,0,0,.2), rgba(255,255,255,.8)),
+                  linear-gradient(
+                  to left,
+                  #ff0000 0%,#ffff00 20%,#00ff00 35%,#00ffff 50%,#0000ff 65%,#ff00ff 80%,#ff0000 100%);
+                  width:150px;height:150px;border-radius:50%;margin:10px;color:#fff;overflow:hidden;text-align:center;
+                  line-height:150px">
+        <span style="display: inline-block;height: auto;line-height:1;vertical-align: middle;">
+          radial<br>+<br>linear
+        </span>
+      </div>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<pre><code class='language-scss' lang='scss'>// 配色出處：Fresh Background Gradients
+div {
+  background: linear-gradient(120deg, #a6c0fe 0%, transparent 100%), #f68084;
+}
+// 配色出處：UI Gradients
+div {
+  background: linear-gradient(to top, #c6ffdd, #fbd786, #f7797d);
+}
+// 配色出處：Ultimate CSS Gradient Generator
+div {
+  background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); 
+}
+// 配色出處：UI Gradients
+div {
+  background: radial-gradient(ellipse at center, #78ffd6, #007991);
+}
+div {
+  background:
+    radial-gradient(ellipse at center, rgba(0,0,0,.2), rgba(255,255,255,.8)),
+    linear-gradient(to left, #ff0000 0%,#ffff00 20%,#00ff00 35%,#00ffff 50%,#0000ff 65%,#ff00ff 80%,#ff0000 100%);
+}
+
+
+// FF3.6-15
+	background: -moz-linear-gradient(top | right | bottom | left, color %); 
+	background: -moz-radial-gradient(center, ellipse cover, color %); 
+// Chrome10-25,Safari5.1-6
+	background: -webkit-linear-gradient(top | right | bottom | left, color %);
+	background: -webkit-radial-gradient(center, ellipse cover, color %); 
+// W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+	background: linear-gradient(to top | to right | to bottom | to left, color %);
+	background: radial-gradient(ellipse at center, color %); 
+</code></pre>
+<p>&nbsp;</p>
+<h3 id='邊框'>邊框</h3>
+<form style="margin-top:20px">
+  <filedset>
+    <legend><b style="font-family:OCR A Std">邊框漸層 border-image: linear-gradient / radial-gradient</b></legend>
+    <span>💬 border-radius會失效</span>
+    <div style="display:flex;padding-top:10px;border-radius:5px;flex-wrap: wrap;font-family:OCR A Std">
+      <div style="border: 15px solid transparent;
+                  -moz-border-image: -moz-linear-gradient(top left, #84fab0 0%, #8fd3f4 100%);
+                  -webkit-border-image: -webkit-linear-gradient(top left, #84fab0 0%, #8fd3f4 100%);
+                  border-image: linear-gradient(to bottom right, #84fab0 0%, #8fd3f4 100%);
+                  border-image-slice: 1;
+                  width:150px;height:150px;
+                  border-radius:50%;
+                  margin:10px;text-align:center;line-height:125px;">linear</div>
+      <div style="border: 15px solid transparent;
+                  -moz-border-image: -moz-radial-gradient(center, ellipse cover, #E8CBC0 0%, #636FA4 100%);
+                  -webkit-border-image: -webkit-radial-gradient(center, ellipse cover, #E8CBC0 0%, #636FA4 100%);
+                  border-image: radial-gradient(ellipse at center, #E8CBC0 0%, #636FA4 100%);
+                  border-image-slice: 1;
+                  width:150px;height:150px;
+                  margin:10px;text-align:center;line-height:125px;">radial</div>
+    </div>
+  </filedset>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">偽圓角邊框漸層</b></legend>
+    <span>💬 父層背景漸層 + padding</span>
+    <div style="display:flex;padding-top:10px;border-radius:5px;flex-wrap: wrap;font-family:OCR A Std;color:gray">
+      <div style="background:linear-gradient(to bottom right, #84fab0 30%, #8fd3f4 90%);
+                  width:150px;height:150px;
+                  border-radius:50%;
+                  margin:10px;text-align:center;line-height:125px; padding:15px;">
+        <div style="width:100%;height:100%;background:#fff;border-radius:50%;">linear</div>
+      </div>
+      <div style="background:radial-gradient(ellipse at center, #E8CBC0 50%, #636FA4 80%);
+                  width:150px;height:150px;
+                  border-radius:25px;
+                  box-shadow:2px 2px 2px 2px rgba(0,0,0,.5);
+                  margin:10px;text-align:center;line-height:125px; padding:15px;">
+        <div style="width:100%;height:100%;background:#fff;border-radius:15px;
+                    box-shadow:inset 2px 2px 2px 2px rgba(0,0,0,.5);">radial</div>
+      </div>
+    </div>
+  </filedset>
+</form>
+<pre><code class='language-scss' lang='scss'>// 漸層邊框
+div {
+  -moz-border-image: -moz-radial-gradient(center, ellipse cover, #E8CBC0 0%, #636FA4 100%);
+  -webkit-border-image: -webkit-radial-gradient(center, ellipse cover, #E8CBC0 0%, #636FA4 100%);
+  border-image: radial-gradient(ellipse at center, #E8CBC0 0%, #636FA4 100%);
+  border-image-slice: 1;
+}
+// 偽圓角漸層邊框 (無法鏤空)
+.parent {
+  background:radial-gradient(ellipse at center, #E8CBC0 50%, #636FA4 80%);
+  border-radius:25px;
+  padding:15px;
+  .child {
+    width:100%;
+    height:100%;
+    background:#fff;
+    border-radius:15px;
+  }
+}
+</code></pre>
+<p>&nbsp;</p>
+<h2 id='條紋--格紋'>條紋 / 格紋</h2>
+<form>
+  <filedset>
+    <legend><b style="font-family:OCR A Std">背景條紋&amp;格紋 <br>background:<br> linear-gradient / repeating-linear-gradient<br> radial-gradient / repeating-radial-gradient</b></legend>
+    <span>💬 越上層的樣式放越前面</span>
+    <div style="display:flex;padding-top:10px;border-radius:5px;flex-wrap: wrap;font-family:OCR A Std;font-size:12px">
+      <!--直條紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    linear-gradient(
+                    90deg, 
+                    #E8CBC0 0, #E8CBC0 80%, rosybrown 80%, rosybrown
+                    );
+                    background-size: 20px;
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Straight
+        </span>
+      </div>
+      <!--橫條紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    repeating-linear-gradient(
+                    black 0px 4px, #7F8B6D 4px 14px, antiquewhite 14px 18px, #7F8B6D 18px 28px
+                    ); 
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Horizontal
+        </span>
+      </div>
+      <!--斜紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    repeating-linear-gradient(
+                    -45deg, 
+                    black 0 20px, gold 20px 40px
+                    );
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Diagonal
+        </span>
+      </div>
+      <!--磁磚格紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    linear-gradient(
+                    90deg,
+                    transparent 40%, white 0, white 50%, transparent 0, transparent 90%, #fff 0
+                    ),
+                    linear-gradient(
+                    skyblue 40%, white 0, white 50%, lightsalmon 0, lightsalmon 90%, #fff 0
+                    );
+                    background-size: 40px 40px;
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;overflow:hidden;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Tiles
+        </span>
+      </div>
+      <!--嘉頓格紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    linear-gradient(
+                    90deg,
+                    rgba(180,210,133,.5) 50%, transparent 0
+                    ),
+                    linear-gradient(
+                    180deg,
+                    rgba(180,210,133,.5) 50%, transparent 0
+                    ), white; 
+                    background-size:30px 30px;
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;overflow:hidden;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Gingham check
+        </span>
+      </div>
+      <!--蘇格蘭紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    repeating-linear-gradient(
+                    90deg,
+                    rgba(255,224,98,.7) 0px 2px, transparent 2px 12px, rgba(255,50,.50,.5) 12px 21px,
+                    transparent 21px 23px, rgba(255,50,.50,.5) 23px 32px, transparent 32px 42px
+                    ),
+                    repeating-linear-gradient(
+                    rgba(255,224,98,.7) 0px 2px, transparent 2px 12px, rgba(255,50,.50,.5) 12px 21px,
+                    transparent 21px 23px, rgba(255,50,.50,.5) 23px 32px, transparent 32px 42px
+                    ),#272727; 
+                    width:150px;height:150px;border-radius:50%;margin:10px;line-height:150px;
+                    font-family:OCR A Std;overflow:hidden;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Tartan
+        </span>
+      </div>
+      <!--棋盤格紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background: 
+                    linear-gradient(45deg,hsla(0,0%,100%,.3) 25%, transparent 0),
+                    linear-gradient(45deg,transparent 75%, hsla(0,0%,100%,.3) 0),
+                    linear-gradient(45deg,transparent 75%, hsla(0,0%,100%,.3) 0),
+                    linear-gradient(45deg,hsla(0,0%,100%,.3) 25%, transparent 0),
+                    black;
+                    background-size: 30px 30px;
+                    background-position: 0 0,15px 15px;
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;overflow:hidden;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Damier Check
+        </span>
+      </div>
+      <!--千鳥紋-->
+      <div style="display:flex; flex-direction: column;justify-content:center;">
+        <div style="background-size: 20px 20px;
+                    background-image:
+                    linear-gradient(
+                    45deg,
+                    #000 0%, #000 25%,
+                    transparent 25%, transparent 75%,
+                    #C89975 75%, #C89975 100%
+                    ),
+                    linear-gradient(
+                    -135deg,
+                    #000 0%, #000 25%,
+                    transparent 25%, transparent 75%,
+                    #C89975 75%, #C89975 100%
+                    ),
+                    linear-gradient(
+                    135deg,
+                    #000 0%, #C89975 12.5%,
+                    #000 12.5%, #000 25%,
+                    #C89975 25%, #C89975 37.5%,
+                    #000 37.5%, #000 62.5%,
+                    #C89975 62.5%, #C89975 75%,
+                    #000 75%, #000 87.5%,
+                    #C89975 87.5%, #C89975 100%
+                    );
+                    background-position: 0 0, 10px 10px, 0 0;
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;
+                    line-height:150px;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Houndstooth
+        </span>
+      </div>
+      <!--箭靶-->
+      <div style="display:flex; flex-direction: column;justify-content:center;filter: drop-shadow(1px 1px 2px rgba(0,0,0,.3));">
+        <div style="background: 
+                    repeating-radial-gradient(
+                    gold 0 15px, crimson 16px 30px, dodgerblue 31px 45px, black 46px 60px, white 61px 75px
+                    );
+                    width:150px;height:150px;border-radius:50%;margin:10px;text-align:center;line-height:150px;
+                    font-family:OCR A Std;">
+        </div>
+        <span style="padding:5px;margin:auto;">
+          Archery target
+        </span>
+      </div>
+    </div>
+  </filedset>
+</form>
+<p>&nbsp;</p>
+<pre><code class='language-scss' lang='scss'>// 直條紋
+div {
+  background: 
+    linear-gradient(
+      90deg, 
+      #E8CBC0 0, #E8CBC0 80%, rosybrown 80%, rosybrown
+    );
+  background-size: 20px;
+}
+// 橫條紋
+div {
+  background: 
+    repeating-linear-gradient(
+      black 0px 4px, #7F8B6D 4px 14px, antiquewhite 14px 18px, #7F8B6D 18px 28px
+    ); 
+}
+// 斜紋
+div {
+  background: 
+    repeating-linear-gradient(
+      -45deg, 
+      black 0 20px, gold 20px 40px
+    );
+}
+// 棋盤格紋(出處：註1)
+div {
+  background: 
+    linear-gradient(45deg,hsla(0,0%,100%,.3) 25%, transparent 0),
+    linear-gradient(45deg,transparent 75%, hsla(0,0%,100%,.3) 0),
+    linear-gradient(45deg,transparent 75%, hsla(0,0%,100%,.3) 0),
+    linear-gradient(45deg,hsla(0,0%,100%,.3) 25%, transparent 0),
+    black;
+  background-size: 30px 30px;
+  background-position: 0 0,15px 15px;
+}
+// 千鳥紋(出處：註2)
+div {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(
+      45deg,
+      #000 0%, #000 25%,
+      transparent 25%, transparent 75%,
+      #C89975 75%, #C89975 100%
+    ),
+    linear-gradient(
+      -135deg,
+      #000 0%, #000 25%,
+      transparent 25%, transparent 75%,
+      #C89975 75%, #C89975 100%
+    ),
+    linear-gradient(
+      135deg,
+      #000 0%, #C89975 12.5%,
+      #000 12.5%, #000 25%,
+      #C89975 25%, #C89975 37.5%,
+      #000 37.5%, #000 62.5%,
+      #C89975 62.5%, #C89975 75%,
+      #000 75%, #000 87.5%,
+      #C89975 87.5%, #C89975 100%
+    );
+  background-position: 0 0, 10px 10px, 0 0;
+}
+// 箭靶
+div {
+  background: 
+    repeating-radial-gradient(
+      gold 0 15px, crimson 16px 30px, dodgerblue 31px 45px, black 46px 60px, white 61px 75px
+    );
+}
+</code></pre>
+<blockquote><p>註<sup>1</sup>：<a href='https://www.jianshu.com/p/bc3f10f8fd5a'>[每天进步一点点~] uni-app css 各种条纹背景、格纹背景、格子背景</a></p>
+<p>註<sup>2</sup>：<a href='https://mae.chab.in/archives/2310'>6ステップで完成！CSS3でお洒落な「千鳥格子」を作る方法</a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h3>應用練習</h3>
+<p><strong>Loading進度條</strong></p>
+<div style="width:350px;height:20px;border-radius:15px;background:linear-gradient(90deg, black 10%, #272727 90%);border:3px solid black;margin:0 10px 20px 0;">
+    <span style="font-family:OCR A Std;position:absolute;width:350px;height:20px;line-height:20px;text-align:center;text-shadow: violet 0px 0px 5px, violet 0px 0px 5px;color:#fff;">26%</span>
+    <div style="background: linear-gradient(
+                45deg, 
+                mediumpurple 0, mediumpurple 15%, darkslateblue 15%, darkslateblue 50%, 
+                mediumpurple 50%, mediumpurple 65%, darkslateblue 65%, darkslateblue
+                );background-size: 20px 20px;height:100%;border-radius:15px;box-shadow:inset 0px 0px 5px 1px rgba(0,0,0,.7);
+                width:26%;">
+    </div>
+  </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id='遮罩'>遮罩</h2>
+<h2 id='濾鏡'>濾鏡</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><font id="shape"> </font></p>
+<h1 id='形狀'>形狀</h1>
+<blockquote><p>參考文章：</p>
+<p><a href='https://www.webhek.com/post/40-css-shapes.html'>用CSS绘制最常见的40种形状和图形</a></p>
+</blockquote>
+<h2 id='橢圓'>橢圓</h2>
+<div style="width:85px;height:50px;background:royalblue;border-radius:85px / 50px;"></div>
+<pre><code class='language-css' lang='css'>div {
+  width: 200px;
+  height: 100px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+}
+</code></pre>
+<h2 id='三角形--梯形'>三角形 / 梯形</h2>
+<div>
+    <a style="padding-left:0; border-left:none;" href="http://apps.eky.hk/css-triangle-generator/zh-hant">
+        <button style="background: #272727; color: rgb(255,255,210); font-size: 12px; border-radius:25px;padding:3px 10px 3px 10px;letter-spacing: 1px;cursor: pointer;">
+            三角形產生器
+        </button>
+    </a>
+</div>
+<div style="display:flex;">
+  <div style="width:0;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom: 40px solid LightSeaGreen;margin:10px;">
+  </div>
+  <div style="width:0;border-left:25px solid transparent;border-right:25px solid transparent;border-bottom: 30px solid LightSeaGreen;margin:10px;">
+  </div>
+  <div style="width: 0;border-style: solid;border-width: 0 20px 34.6px 20px;border-color: transparent transparent LightSeaGreen transparent;margin:10px;">
+  </div>
+  <div style="width: 0;border-style: solid;border-width: 34.6px 20px 0 20px;border-color: LightSeaGreen transparent transparent transparent;margin:10px;">
+  </div>
+  <div style="width: 0;height: 0;border-style: solid;border-width: 20px 34.6px 20px 0;border-color: transparent LightSeaGreen transparent transparent;margin:10px;">
+  </div>
+   <div style="width: 0;height: 0;border-style: solid;border-width: 20px 0 20px 34.6px;border-color: transparent transparent transparent LightSeaGreen;margin:10px;">
+  </div>
+  <div style="width:0;border-style: solid;border-width: 40px 40px 0 0;border-color: LightSeaGreen transparent transparent transparent;margin:10px;">
+  </div>
+  <div style="width:55px;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom: 35px solid LightSeaGreen;margin:10px;">
+  </div>
+</div>
+<p>&nbsp;</p>
+<pre><code class='language-css' lang='css'>div {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+</code></pre>
+<h2 id='平行四邊形'>平行四邊形</h2>
+<div style="width: 50px;
+  height: 35px;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: tomato;"></div>
+<pre><code class='language-css' lang='css'>div {
+  width: 150px;
+  height: 100px;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: red;
+}
+</code></pre>
+<h2 id='新月'>新月</h2>
+<div style="width:40px;height:40px;border-radius:50%;box-shadow: 10px 5px 0 0 gold"></div>
+<pre><code class='language-css' lang='css'>div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 red;
+}
+</code></pre>
+<p>&nbsp;</p>
+<p><font id="layout"> </font></p>
+<h1 id='排版'>排版</h1>
+<h2 id='垂直置中'>垂直置中</h2>
+<blockquote><p>參考文章：</p>
+<p><a href='http://csscoke.com/2018/08/21/css-vertical-align/'>CSS垂直置中技巧，我只會23個，你會幾個</a></p>
+</blockquote>
+<h3 id='1-line-height'><span style="font-family:OCR A Std;">1. line-height</span></h3>
+<pre><code class='language-scss' lang='scss'>// 1.
+.child {
+  line-height: 100px;
+}
+// 2.
+.parent {
+  line-height: 200px;
+  .child {
+    display: inline-block;
+    height: auto;
+    line-height:1;
+    vertical-align: middle;
+  }
+}
+</code></pre>
+<h3 id='2-vertical-align'><span style="font-family:OCR A Std;">2. vertical-align</span></h3>
+<pre><code class='language-scss' lang='scss'>.parent {
+  height: 250px;
+  &amp;::before {
+    content:&#39;&#39;;
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+  .child {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+</code></pre>
+<h3 id='3-translatey'><span style="font-family:OCR A Std;">3. translateY</span></h3>
+<pre><code class='language-scss' lang='scss'>.parent {
+  height: 250px;
+  position: relative;
+  .child {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}
+</code></pre>
+<h4 id='4-flex'><span style="font-family:OCR A Std;">4. flex</span></h4>
+<pre><code class='language-scss' lang='scss'>// 1.
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+// 2.
+.parent {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &amp;:before {
+    content: &#39;&#39;;
+    flex-grow: .5;
+  }
+}
+// 3.
+.parent {
+  height: 250px;
+  display: flex;
+  .chlid {
+    margin: auto;
+  }
+}
+// 4.
+.parent {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  .chlid {
+    align-self: center;
+  }
+}
+// 5.
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+</code></pre>
+<h3 id='5-grid'><span style="font-family:OCR A Std;">5. grid</span></h3>
+<pre><code class='language-scss' lang='scss'>// 1.
+.parent {
+  display: grid;
+  justify-content: center;
+  align-items: center; 
+}
+// 2.
+.parent {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas: 
+    &#39;. . .&#39;
+    &#39;. amos .&#39;
+    &#39;. . .&#39;;
+  .chlid {
+    grid-area: amos;
+  }
+}
+</code></pre>
+<p>&nbsp;</p>
+<h2 id='水平置中'>水平置中</h2>
+<pre><code class='language-scss' lang='scss'>// 1. 要有寬度、不能浮動、不能絕對定位
+div {
+  margin: auto;
+}
+// 2. 當物件為絕對定位時
+div {
+  position: absolute;
+  left: 50%;
+  transform: transitionX(-50%);
+}
+</code></pre>
+<p>&nbsp;</p>
+<h2 id='水平均分'>水平均分</h2>
+<pre><code class='language-css' lang='css'>div {
+  display: flex;
+  justify-content: space-between;
+}
+</code></pre>
+<h2 id='垂直均分'>垂直均分</h2>
+<pre><code class='language-css' lang='css'>div {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+</code></pre>
+<p>&nbsp;</p>
+<h2 id='flex的各種相關屬性'><span style="font-family:OCR A Std;">flex</span>的各種相關屬性</h2>
+<blockquote><p>參考文章：</p>
+<p><a href='https://magicjackting.pixnet.net/blog/post/224485899'>CSS: Flex 快速設定及詳解</a></p>
+<p><a href='https://wcc723.github.io/css/2017/07/21/css-flex/'>圖解：CSS Flex 屬性一點也不難</a></p>
+<p><a href='https://awdr74100.github.io/2019-11-07-css-flexbox/'>解析 CSS Flexbox 佈局模型</a></p>
+</blockquote>
+<pre><code class='language-css' lang='css'>flex-direction: row;            /* 由左至右, 水平方向排列 */
+flex-direction: row-reverse;    /* 由右至左, 水平方向排列 */
+flex-direction: column;         /* 由上至下, 垂直方向排列 */
+flex-direction: column-reverse; /* 由下至上, 垂直方向排列 */
+
+flex-wrap: nowrap;       /* 不折返 */
+flex-wrap: wrap;         /* 折返 */
+flex-wrap: wrap-reverse; /* 折返, 同時 &#39;交錯軸&#39; 為 reverse */
+
+justify-content: flex-start    /* 靠主軸啟始端, 空白留在結束端 */
+justify-content: flex-end      /* 靠主軸結束端, 空白留在啟始端 */
+justify-content: center        /* 主軸居中, 空白留在二端 */
+justify-content: space-between /* 主軸空白平均分配於內容項之間, 二端不留空白 */
+justify-content: space-around  /* 主軸空白平均分配給各內容項二端 */
+
+align-items: flex-start /* 垂直靠上對齊 */
+align-items: flex-end   /* 垂直靠下對齊 */
+align-items: center     /* 垂直置中對齊 */
+align-items: stretch    /* 交錯軸向上拉伸至最大值 */
+align-items: baseline   /* 交錯軸以文字基準線對齊 */
+
+align-content: flex-start    /* 靠啟始端 */
+align-content: flex-end      /* 靠結束端 */
+align-content: center        /* 居中 */
+align-content: space-between /* 平均分配, 二側不留空白 */
+align-content: space-around  /* 平均分配 */
+align-content: stretch       /* 元件拉伸至最大值 */
+</code></pre>
+<h2 id='表格'>表格</h2>
+<h3 id='凍結表頭--表尾'>凍結表頭 / 表尾</h3>
+<pre><code class='language-scss' lang='scss'>// 凍結表頭
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+thead {
+  position: sticky;
+  top: 0;
+}
+// 凍結表尾
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+tfoot {
+  position: sticky;
+  bottom: 0;
+}
+</code></pre>
+<p>&nbsp;</p>
+<p><font id="RWD"> </font></p>
+<h1 id='rwd'>RWD</h1>
+<h2 id='偽元素-after'>偽元素 <span style="font-family:OCR A Std;">::after</span></h2>
+<h3 id='根據子元素自動高度'>根據子元素自動高度</h3>
+<p>用after模擬根據子元素高度的自適應父元素高度</p>
+<pre><code class='language-scss' lang='scss'>div {
+  overflow: auto;
+  &amp;::after {
+    content: &quot;&quot;;
+    clear:both;
+    display: block;
+  }
+}
+</code></pre>
+<h3 id='自適應百分比正方形'>自適應百分比正方形</h3>
+<p>只有div</p>
+<pre><code class='language-scss' lang='scss'>.square {
+  width: 30%;
+  overflow: hidden;
+  &amp;::after{
+    content: &quot;&quot;;
+    display: block;
+    margin-top: 100%;
+  }
+}
+</code></pre>
+<p>div裡面有子元素：減掉子元素高度</p>
+<pre><code class='language-html' lang='html'>&lt;div class=&quot;square&quot;&gt;
+  &lt;div style=&quot;width:200px; height: 120px;&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class='language-scss' lang='scss'>.square {
+  width: 30%;
+  overflow: hidden;
+  &amp;::after {
+    content: &quot;&quot;;
+    display: block;
+    margin-top: calc(100% - 120px);
+  }
+}
+</code></pre>
+<p><font id="3D"> </font></p>
+<h1 id='3d效果'>3D效果</h1>
+<h2 id='正六面體'>正六面體</h2>
+<blockquote><p> 參考文章：</p>
+<p><a href='https://www.oxxostudio.tw/articles/201506/css-3d-platonic-solid-1.html'>玩轉 CSS 3D - 正四面體與正六面體</a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font id="canvas"> </font></p>
+<h1 id='canvas'>canvas</h1>
+<p><font id="other"> </font></p>
+<h1 id='其他'>其他</h1>
+<h2 id='pointer-events'>pointer-events</h2>
+<p>當上層元素遮擋下層元素，使下層元素的滑鼠事件無法被觸發：</p>
+<ol>
+<li>可給上層元素加上<code>pointer-events: none;</code>，鼠標會穿透上層觸發下層的滑鼠事件，並且不再觸發上層元素中的滑鼠事件。</li>
+<li>如果被指定了<code>pointer-events: none;</code>的上層元素中，有子元素需要被觸發滑鼠事件，則在此子元素加上<code>pointer-events: auto;</code>，此子元素的滑鼠事件將正常運作。</li>
+
+</ol>
+<pre><code class='language-scss' lang='scss'>// 常用的：
+pointer-events: auto;
+pointer-events: none;
+</code></pre>
+<p>&nbsp;</p>
+<div style="display:flex;flex-direction:column;padding:5px 5px 15px 5px; background:rgba(140,70,150,.8);border-radius: 0 15px 15px 0;
+            justify-content:space-between;drop-shadow(2px 2px 3px rgba(0,0,0,.3));
+            position:fixed;top:10px;z-index:999;width:150px;left: -5px;">
+  <b style="font-family:OCR A Std;;margin: 15px 10px;">
+    CSS筆記+練習
+  </b>
+  <a href="#generators" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">語法產生器</a>
+  <a href="#attributes" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">常用屬性</a>
+  <a href="#selector" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">選擇器</a>
+  <a href="#pseudo" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">偽元素&amp;偽類</a>
+  <a href="#effect" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">效果</a>
+  <a href="#shape" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">形狀</a>
+  <a href="#layout" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">排版</a>
+  <a href="#RWD" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">RWD</a>
+  <a href="#3D" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">3D</a>
+  <a href="#canvas" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">canvas</a>
+  <a href="#other" style="padding:0 20px; margin: 2.5px;color:#ebbcf1;">其他</a>
+</div>
+<p><img src="https://i.imgur.com/dTWhlOG.png" style="position:fixed;margin:20px;right:0;bottom:0;width:80px;height:auto;"/></p>
+<p>&nbsp;</p>
+</body>
+</html>
